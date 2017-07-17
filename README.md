@@ -3,7 +3,7 @@
 This repository contains the documentation and the R code for the final 
 Course Project for Coursera's Getting and Cleaning Data Course.
 
-The analysis fr the project is based on the data [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Smartphone-Based+Recognition+of+Human+Activities+and+Postural+Transitions)
+The analysis for the project is based on the following data: [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Smartphone-Based+Recognition+of+Human+Activities+and+Postural+Transitions)
 
 ## **Files:**
 
@@ -19,7 +19,7 @@ can be read and used to reproduce the analysis by loading it into RStudio.
 analysis - an independent tidy data set with the average of each variable 
 for each activity and each subject.
 
-## Process of collecting, working with, and clean the data set:
+## **Process of collecting, working with, and clean the data set:**
 
 1. The data is downloaded and unzipped
 2. The file with the activity labels is loaded and they are made easily readable
