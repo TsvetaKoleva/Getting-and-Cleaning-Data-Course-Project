@@ -19,7 +19,7 @@ can be read and used to reproduce the analysis by loading it into RStudio.
 analysis - an independent tidy data set with the average of each variable 
 for each activity and each subject.
 
-## **Process of collecting, working with, and clean the data set:**
+## **Process of collecting, working with, and cleaning the data set:**
 
 1. The data is downloaded and unzipped
 2. The file with the activity labels is loaded and they are made easily readable
