@@ -171,7 +171,7 @@ The complete list of variables of each feature vector is available in 'features.
 4. The names of the variables are transformed to be more intuitively read and comprehended
 5. The training data is loaded and its components (*X_train, Y_train, subject_train*) are binded together in a data frame called *train* 
 6. Similar actions are performed for the test data with initial files as follows: *X_test, Y_test, subject_test*, and an output data frame *test*
-7. The two sets are merged into one (*mydata*) and the activity column is transformed into a factor variable to read the actual names of the activities: * "WALKING", "WALKING UPSTAIRS", "WALKING DOWNSTAIRS", "SITTING", "STANDING", "LAYING"*
+7. The two sets are merged into one (*mydata*) and the activity column is transformed into a factor variable to read the actual names of the activities: *"WALKING", "WALKING UPSTAIRS", "WALKING DOWNSTAIRS", "SITTING", "STANDING", "LAYING"*
 8. A new tidy data set is created with the average of each variable for each activity and each subject - *mydataMean*
 9. The data set is saved as a new file: *TidyAverages.txt*
 
