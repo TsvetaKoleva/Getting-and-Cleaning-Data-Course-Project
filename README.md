@@ -1,4 +1,4 @@
-# Getting-and-Cleaning-Data-Course-Project
+# __Getting and Cleaning Data Course Project__
 
 This repository contains the documentation and the R code for the final 
 Course Project for Coursera's Getting and Cleaning Data Course.
