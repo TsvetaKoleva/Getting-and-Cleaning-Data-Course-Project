@@ -147,7 +147,7 @@ tBodyGyroJerkMean
 
 The complete list of variables of each feature vector is available in 'features.txt'
 
-## Files in folder ‘UCI HAR Dataset’ that will be used are:
+## Files in folder â€˜UCI HAR Datasetâ€™ that will be used are:
 
 1. SUBJECT FILES
 * test/subject_test.txt
@@ -162,15 +162,4 @@ The complete list of variables of each feature vector is available in 'features.
 * train/y_train.txt
 * features.txt - List of all features
 * activity_labels.txt - Links the class labels with their activity name
-
-## Process of collecting, working with, and clean the data set:
-
-1. The data is downloaded and unzipped
-2. The file with the activity labels is loaded and they are made easily readable
-3. The features file is loaded, transformed to a character variable and only the variables representing means and standard deviations are extracted
-4. The names of the variables are transformed to be more intuitively read and comprehended 
-5. The training data is loaded and its components are binded together. Similar actions are performed for the test data
-6. The two sets are merged into one and the activity column is transformed into a factor variable to read the actual names of the activities
-7. A new tidy data set is created with the average of each variable for each activity and each subject
-8. The data set is saved as a new file: *TidyAverages.txt*
 
